@@ -42,7 +42,7 @@
     font-size: 18px;
     background-color: white;
 }
-.game-result {
+.game-result .chip-stack{
     font-size: 20px;
     border-radius: 10px;
     padding: 5px;
