@@ -42,7 +42,8 @@
     font-size: 18px;
     background-color: white;
 }
-.game-result .chip-stack{
+
+.game-result {
     font-size: 20px;
     border-radius: 10px;
     padding: 5px;
@@ -51,4 +52,46 @@
     margin: auto;
     margin-top: 100px;
     background-color: aquamarine;
+    font-weight: bold;
+}
+
+.chip {
+    width: 100px;
+    height: 100px;
+    margin: 16px;
+    border-radius: 100px;
+    border: 8px dashed white;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    outline: 2px solid red;
+}
+
+#fifty {
+    background-color: blue;
+    outline: 2px solid blue;
+}
+
+#one-hundred {
+    background-color: black;
+    outline: 2px solid black;
+}
+
+.hand-bet {
+    margin-top: 75px
+}
+
+.reset-div {
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+    gap: 32px;
+}
+
+.reset-div button {
+    width: 150px;
+    height: 64px;
+    background-color: white;
+    border-radius: 16px;
 }
